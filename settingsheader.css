@@ -1,0 +1,27 @@
+.settingsheader {
+    padding: var(--horizontal-space);
+    margin-bottom: 6vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .settingsheader__column {
+    width: 20%;
+    font-size: 3.5vw;
+  }
+  
+  .settingsheader__title {
+    font-size: 5vw;
+  }
+  
+  .settingsheader__column:nth-child(2) {
+    width: 33%;
+    text-align: center;
+  }
+  .settingsheader__column:last-child {
+    text-align: right;
+  }
+  .settingsheader__column span:last-child {
+    margin-left: 15px;
+  }
